@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="playlist-div">
+                <i class="ri-play-list-fill" id="playlist"></i>
+            </div>
+            <h2>FEEL THE MUSIC</h2>
+            <i id="music" class="ri-music-ai-fill"></i>
+        </nav>
+    </header>
+
+    <main>
+        <div class="left">
+            <div class="song-img">
+                <img draggable="false" class="music-animation" src="./song-img/music-animated.webp" alt="">
+            </div>
+            <div class="vol-div">
+                <div class="volume-icon">
+                    <i class="ri-volume-up-line volume-img"></i>
+                </div>
+
+                <input class="vol-range" type="range">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="details">
+                <h3 class="song-name">Dhai Liter Dudh</h3>
+                <h5 class="song-singer">Pawan Pilania</h5>
+            </div>
+            <input class="song-duration" type="range">
+
+            <div class="controls">
+                <div class="previous-div">
+                    <i class="ri-skip-back-line"></i>
+                </div>
+
+                <div class="play-pause-div">
+                    <i class="ri-play-line playbtn"></i>
+                </div>
+
+                <div class="next-div">
+                    <i class="ri-skip-forward-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="playlist">
+            <div class="playlist-songs">
+                <img src="./song-img/Yaad-Me-Zinda.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Yaad Me Zinda</h2>
+                    <h4>OG Bodhi Tree Group</h4>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="./song-img/jo-tere-sang.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Jo Tere Sang</h2>
+                    <h4>Mustafa Zahid</h4>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="./song-img/mann-mera.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Mann Mera</h2>
+                    <h4>Gajendra Varma</h4>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="./song-img/dhai-liter-dudh.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Dhai Liter Dudh</h2>
+                    <h4>Pawan Pilania</h4>
+                </div>
+
+            </div>
+            <div class="playlist-songs">
+                <img src="./song-img/tu-hai-kahan.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Tu Hai Kahan</h2>
+                    <h4>AUR</h4>
+                </div>
+
+            </div>
+            <div class="playlist-songs">
+                <img src="./song-img/bhajan-jamming.webp" alt="img">
+                <div class="detail-song">
+                    <h2>Bhajan Jamming</h2>
+                    <h4>Backstage Sibilings</h4>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
